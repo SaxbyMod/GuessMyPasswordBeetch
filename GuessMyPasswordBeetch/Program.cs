@@ -13,7 +13,6 @@ namespace GuessMyPasswordBeetch
             for (bool i = false; i != true; i = i) {
                 Console.WriteLine("GUESS MY PASSWORD BEETCH");
                 string items = "ALPHA";
-                Console.ReadLine();
                 string Awnser;
                 Console.WriteLine("ENTER PASSWORD:");
                 Awnser = Console.ReadLine();
