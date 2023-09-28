@@ -10,7 +10,8 @@ namespace GuessMyPasswordBeetch
     {
         static void Main(string[] args)
         {
-            for (bool i = false; i != true; i = i) {
+            bool i = false;
+            while (i != true) {
                 Console.WriteLine("GUESS MY PASSWORD BEETCH");
                 string items = "ALPHA";
                 string Awnser;
